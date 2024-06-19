@@ -1,0 +1,35 @@
+.excel-viewer {
+    /* display: flex; */
+    width: 800px; /* Set the desired width */
+    max-height: 300px; /* Set the desired height */
+    overflow: auto;
+    /* justify-content: center;
+    align-items: center; */
+    height: 100vh;
+  }
+  
+  .excel-table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    background-color: #ffffff;
+  }
+  
+  .excel-table th,
+  .excel-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    background-color: #ffffff;
+  }
+  
+  .excel-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .excel-container {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    /* height: 100vh; */
+  }

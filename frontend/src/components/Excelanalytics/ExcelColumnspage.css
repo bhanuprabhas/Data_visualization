@@ -1,0 +1,103 @@
+
+
+body{
+  background-color: #A2D5F2;
+}
+
+/* .columnexcel-page{
+  padding-top: 20px;
+} */
+
+.column-data-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.column-buttons {
+  margin-bottom: 20px;
+}
+
+.column-buttons button {
+  margin: 10px;
+  padding: 8px 16px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.excelbutton{
+  margin: 10px;
+  padding: 8px 16px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+.excelbutton.active{
+  background-color: #8884d8;
+  color: white;
+}
+
+.column-buttons button.active {
+  background-color: #8884d8;
+  color: white;
+}
+
+.column-chart {
+  margin-top: 20px;
+}
+
+.column-chart h4 {
+  margin-bottom: 10px;
+}
+
+.pie-chart {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pie-chart h4 {
+  margin-bottom: 10px;
+}
+
+.pie-chart .recharts-surface {
+  display: inline-block;
+}
+
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  flex-grow: inherit;
+}
+
+.chart-container h4 {
+  margin-bottom: 10px;
+}
+
+
+.excelview{
+  margin: 40px;
+}
+
+/* .recharts-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  min-width:400px !important;
+  min-height: 500px !important;
+  position: relative;
+  cursor: default;
+} */
+
+
